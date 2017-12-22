@@ -2,6 +2,9 @@
 name = "xmz-test-client"
 version = "0.1.0"
 authors = ["zzeroo <co@zzeroo.com>"]
+description = "Simple test GUI"
+homepage = "https://github.com/zzeroo/xmz-test-gui"
+repository = "https://github.com/zzeroo/xmz-test-gui.git"
 
 [dependencies]
 gtk = { git = "https://github.com/gtk-rs/gtk.git" }
