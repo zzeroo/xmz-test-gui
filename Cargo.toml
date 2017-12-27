@@ -1,6 +1,6 @@
 [package]
 name = "xmz-test-gui"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["zzeroo <co@zzeroo.com>"]
 description = "Simple test GUI"
 homepage = "https://github.com/zzeroo/xmz-test-gui"

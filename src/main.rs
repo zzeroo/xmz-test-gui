@@ -8,7 +8,7 @@ fn main() {
 
     let window = Window::new(WindowType::Toplevel);
 
-    let vbox = gtk::Box::new(Orientation::Vertical, 10);
+    let vbox = gtk::Box::new(Orientation::Vertical, 0);
     let input = Entry::new();
     let button = Button::new();
 
@@ -17,6 +17,7 @@ fn main() {
 
     window.set_position(WindowPosition::Center);
     window.set_default_size(1024, 600);
+    window.maximize();
 
     window.add(&vbox);
 
